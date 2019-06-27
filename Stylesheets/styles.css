@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#grad {
+    background: yellow;
+  background-image: linear-gradient(red, yellow);
+  height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#gameCanvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   border: solid 2px blue ;
+    
+}
+#score{
+    text-align: center;
+    font-size: 120px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
